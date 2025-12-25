@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="jest tests" tests="11" failures="0" errors="0" time="2.55">
+  <testsuite name="Mortgage Calculator" errors="0" failures="0" skipped="0" timestamp="2025-12-25T23:04:44" time="0.424" tests="8">
+    <testcase classname="Mortgage Calculator Basic Mortgage: £150000 at 3.5% for 25 years (Fixed Rate)" name="Mortgage Calculator Basic Mortgage: £150000 at 3.5% for 25 years (Fixed Rate)" time="0.002">
+    </testcase>
+    <testcase classname="Mortgage Calculator Large Loan Amount: £500000 at 4.2% for 30 years (Adjustable Rate)" name="Mortgage Calculator Large Loan Amount: £500000 at 4.2% for 30 years (Adjustable Rate)" time="0.001">
+    </testcase>
+    <testcase classname="Mortgage Calculator Shorter Term Loan: £200000 at 3% for 15 years (Fixed Rate)" name="Mortgage Calculator Shorter Term Loan: £200000 at 3% for 15 years (Fixed Rate)" time="0">
+    </testcase>
+    <testcase classname="Mortgage Calculator High Interest Rate: £120000 at 5.5% for 20 years (Fixed Rate)" name="Mortgage Calculator High Interest Rate: £120000 at 5.5% for 20 years (Fixed Rate)" time="0">
+    </testcase>
+    <testcase classname="Mortgage Calculator Low Loan Amount, Adjustable Rate: £75000 at 2.8% for 10 years (Adjustable Rate)" name="Mortgage Calculator Low Loan Amount, Adjustable Rate: £75000 at 2.8% for 10 years (Adjustable Rate)" time="0.001">
+    </testcase>
+    <testcase classname="Mortgage Calculator Interest-Only Mortgage: £250000 at 4% for 25 years (Interest-Only)" name="Mortgage Calculator Interest-Only Mortgage: £250000 at 4% for 25 years (Interest-Only)" time="0">
+    </testcase>
+    <testcase classname="Mortgage Calculator High Loan-to-Value (LTV) Ratio: £350000 at 4.5% for 30 years (Fixed Rate)" name="Mortgage Calculator High Loan-to-Value (LTV) Ratio: £350000 at 4.5% for 30 years (Fixed Rate)" time="0">
+    </testcase>
+    <testcase classname="Mortgage Calculator Low LTV Ratio: £100000 at 3.75% for 20 years (Fixed Rate)" name="Mortgage Calculator Low LTV Ratio: £100000 at 3.75% for 20 years (Fixed Rate)" time="0.001">
+    </testcase>
+  </testsuite>
+  <testsuite name="undefined" errors="0" failures="0" skipped="0" timestamp="2025-12-25T23:04:44" time="0.739" tests="3">
+    <testcase classname=" renders navigation" name=" renders navigation" time="0.05">
+    </testcase>
+    <testcase classname=" renders mortgage calculator heading" name=" renders mortgage calculator heading" time="0.011">
+    </testcase>
+    <testcase classname=" renders nav buttons" name=" renders nav buttons" time="0.013">
+    </testcase>
+  </testsuite>
+</testsuites>

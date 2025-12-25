@@ -29,7 +29,7 @@ function App() {
                 <a href="#" className={navButtonClass}>
                   Home
                 </a>
-                <a href='#' className={'bg-green-300 hover:bg-green-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded'}>Mortgage Calculator</a>
+                <a href='#' className={'bg-green-300 hover:bg-green-500 text-gray-700 font-semibold hover:text-white py-2 px-4 border border-green-500 hover:border-transparent rounded'}>Calculator</a>
                 <a href='#' className={navButtonClass}>Contact Us</a>
               </div>   
 

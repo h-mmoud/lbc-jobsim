@@ -2,8 +2,20 @@ import React from 'react';
 import { render, screen } from '@testing-library/react';
 import App from './App';
 
-test('renders learn react link', () => {
+test('renders navigation', () => {
   render(<App />);
-  const linkElement = screen.getByText(/learn react/i);
-  expect(linkElement).toBeInTheDocument();
+  const navElement = screen.getByText(/Lloyds Banking Group/i);
+  expect(navElement).toBeInTheDocument();
+});
+
+test('renders mortgage calculator heading', () => {
+  render(<App />);
+  const headingElement = screen.getByText(/Mortgage Calculator/i);
+  expect(headingElement).toBeInTheDocument();
+});
+
+test('renders nav buttons', () => {
+  render(<App />);
+  expect(screen.getByText(/Home/i)).toBeInTheDocument();
+  expect(screen.getByText(/Contact Us/i)).toBeInTheDocument();
 });
